@@ -9,9 +9,7 @@ Why this PR is needed?
 ### [ Live Here ](https://roniy68.github.io/leaderboard/)
 
 ### Changes details
-- Detail one
-- Detail two
-  ...
+- ***Please add @roniy68 in your comment so that I get notified***
 ## Missed anything?
 - [ ] Explained the purpose of this PR.
 - [ ] Self reviewed the PR.
