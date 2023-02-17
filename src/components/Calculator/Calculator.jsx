@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import calculate from '../../logic/calculate';
 import NumberBtn from './buttons/Button';
 import OperationBtn from './buttons/OperationBtn';
 import './Calculator.css';
@@ -12,7 +13,7 @@ const Calculator = () => {
   });
 
   const handleClick = (e) => {
-    setDataObj(e);
+    setDataObj(calculate(dataObj, e.target.textContent));
   };
   return (
     <div className="calculator">
