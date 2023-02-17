@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => (
   <div className="footer">
-    This is a footer
+    &copy;Designed by Microverse
   </div>
 );
 
