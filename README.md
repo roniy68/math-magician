@@ -64,7 +64,7 @@ A web-based application to understand about the basics of React - Redux
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-***Live*** :  [Math Magician](https://roniy68.github.io/math-magician).
+***Live*** :  [Math Magician](https://math-magician-alpha.vercel.app/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
