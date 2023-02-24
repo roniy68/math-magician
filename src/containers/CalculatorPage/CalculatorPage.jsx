@@ -1,7 +1,6 @@
 import React from 'react';
 import { Calculator } from '../../components';
 import Quote from '../../components/Quote';
-import './CalculatorPage.css';
 import quotes from '../../data/quotes';
 
 const getQuote = () => quotes[Math.floor(Math.random() * quotes.length)];
