@@ -32,7 +32,10 @@
     ],
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
-    "no-shadow": "off"
+    "no-shadow": "off",
+    "linebreak-style": "off",
+    "react/prop-types": "off",
+    "import/extensions": "off"
   },
   "ignorePatterns": [
     "dist/",

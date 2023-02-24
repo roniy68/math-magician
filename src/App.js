@@ -1,14 +1,21 @@
-import './App.css';
-import { Footer, Navbar } from './components';
-import Home from './containers/Home/Home';
+import { Route, Routes } from 'react-router-dom';
+import { Footer } from './components';
+import Header from './components/Header/Header';
+import CalculatorPage from './containers/CalculatorPage/CalculatorPage';
+import HomePage from './containers/Home/HomePage';
+import QuotePage from './containers/QuotePage/QuotePage';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Home />
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/calculator" element={<CalculatorPage />} />
+        <Route path="/quote" element={<QuotePage />} />
+      </Routes>
       <Footer />
-    </div>
+    </>
   );
 }
 
