@@ -1,5 +1,4 @@
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
 import { Footer } from './components';
 import Header from './components/Header/Header';
 import CalculatorPage from './containers/CalculatorPage/CalculatorPage';
